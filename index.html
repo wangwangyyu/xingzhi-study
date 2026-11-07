@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#215e50">
+  <meta name="description" content="用知识地图、典型真题与即时复测，建立你的行测知识体系。">
+  <title>行知 · 行测学习工作台</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="knowledge-map.js"></script>
+  <script defer src="real-questions.js"></script>
+  <script defer src="question-bank/catalog.js"></script>
+  <script defer src="bank.js"></script>
+  <script defer src="domain.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到主要内容</a>
+  <aside class="sidebar" id="sidebar"></aside>
+  <div class="workspace">
+    <header class="topbar" id="topbar"></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="footer"><span>行知 · 把知识点，变成得分点。</span><span>江苏常规选调备考 · 完整真题题库</span></footer>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="settings"></dialog>
+  <script>window.addEventListener('error',function(e){if(!window.XINGZHI_READY){document.getElementById('main').textContent='页面加载失败，请刷新重试。'}});</script>
+</body>
+</html>

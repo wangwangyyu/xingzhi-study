@@ -1,0 +1,7 @@
+{
+  "name": "xingzhi-learning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "行知 · 行测学习工作台",
+  "scripts": { "start": "node server.js", "test": "node --test tests/content.test.js", "build:map": "node scripts/build-map.cjs", "build": "npm run build:map && node scripts/build-site.cjs" }
+}

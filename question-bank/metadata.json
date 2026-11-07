@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "commit": "278984401124db40da5163a31275b8deb9c282f4",
+  "importDate": "2026-11-07",
+  "total": 58890,
+  "papers": 515,
+  "moduleFiles": 2956,
+  "uniqueQids": 27473,
+  "images": 39461,
+  "counts": {
+    "politics": 2305,
+    "general": 9163,
+    "verbal": 16000,
+    "math": 6448,
+    "reason": 16859,
+    "data": 8115
+  },
+  "multipleChoice": 405,
+  "withMaterial": 14986,
+  "withImages": 21972,
+  "readOnly": 111,
+  "missingImageFiles": 2,
+  "issueQuestions": 113
+}
