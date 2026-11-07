@@ -1,6 +1,6 @@
 # 长期网址部署
 
-已准备 GitHub Pages 自动部署配置，当前尚未发布。完整站点约 452 MiB，适合个人使用；GitHub Pages 发布站点上限 1 GB。国内网络的速度与可达性需要上线后实际测试。
+已发布到 https://wangwangyyu.github.io/xingzhi-study/ 。公开仓库：https://github.com/wangwangyyu/xingzhi-study 。完整站点约 452 MiB，适合个人使用；GitHub Pages 发布站点上限 1 GB。国内网络的速度与可达性需要上线后实际测试。
 
 ## 发布内容
 
@@ -14,7 +14,7 @@
 4. 在 Actions 中运行 **Publish Xingzhi**，或推送新的提交触发构建。工作流先执行完整题库检查，再构建和发布。
 5. 部署成功后从工作流的 deployment 输出打开实际网址。默认形如 `https://用户名.github.io/仓库名/#real`；仅为格式示例，账号和仓库未创建前并不是可访问网址。
 
-本机没有已登录的 GitHub 账号。需要用户在 GitHub/官方登录窗口完成登录；不需要在聊天中发送密码或令牌。完成账号连接后才能创建真实网址并验证 HTTPS、题库和手机访问。
+已通过 GitHub 官方设备授权连接 wangwangyyu 账号，并启用 GitHub Actions 自动部署。用户已确认拥有第三方题库的公开发布授权。本机网络使用系统代理 127.0.0.1:7890；命令行联网若超时，可在当前进程配置 HTTP_PROXY/HTTPS_PROXY 与系统代理一致，不要关闭 TLS 校验。
 
 上线后电脑可以关机。只要账号、仓库和 Pages 服务持续启用，网址可以持续使用；没有托管平台保证永久服务。自定义域名可后续绑定。
 
